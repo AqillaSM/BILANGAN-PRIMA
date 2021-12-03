@@ -7,7 +7,7 @@ namespace ConsoleApp3
         static void Main(string[] args)
         {
             Console.Write("Input angka : ");
-            int Angka = Convert.ToInt16(Console.ReadLine);
+            int Angka = Convert.ToInt16(Console.ReadLine());
 
             if (Angka < 2)
             {
@@ -30,8 +30,6 @@ namespace ConsoleApp3
                     Console.WriteLine("Bukan Bilangan Prima");
                 }
             }
-
-
         }
     }
 }
